@@ -1,0 +1,87 @@
+/* signup.css */
+
+/* Container Styles */
+.enroll-container {
+    max-width: 500px;
+    margin: 50px auto; /* Center the container vertically */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styles */
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form Styles */
+  .enroll-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .enroll-form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="integer"] {
+    padding: 10px;
+    width: 100%; /* Full width input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="integer"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Button Styles */
+  .enroll-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .enroll-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message Styles */
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Link Styles */
+  .link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .loginlink {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .loginlink:hover {
+    color: #0056b3;
+  }
+  
